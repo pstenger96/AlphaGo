@@ -59,8 +59,7 @@ def play_game(env, mcts, replay_buffer, net, steps_before_tau_0, mcts_searches, 
         if step >= steps_before_tau_0:
             tau = 0
 
-        if step == 2:
-            is_done = True
+        
     if replay_buffer is not None:
         for state, probs, result in reversed(game_history):
             replay_buffer.append((state, probs, result))
