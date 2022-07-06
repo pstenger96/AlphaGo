@@ -1,7 +1,5 @@
 from ModelType import Net, NN, DNN
 from Model import play_game
-from MCTS import MCTS
-from MCTS_MENTS import MCTS_MENTS
 from GeneralMCTS import GeneralMCTS
 from Entropy import Entropy, MENTS_Entropy
 import gym
