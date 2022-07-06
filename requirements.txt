@@ -1,0 +1,6 @@
+numpy >= 1.21.3
+tensorboardX >= 2.4.1
+torch >= 1.10.0+cu102
+gym >= 0.10.11
+atari-py >= 0.2.9
+opencv-python >= 4.5.5.62 
